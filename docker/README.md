@@ -4,6 +4,7 @@
 Command | Usage
 -------- | -------
 docker run \<image-name\> | To download and run docker image
+docker run -p \<outside-port\> :\<container-port\>   \<image-name\> | To allow port forwarding while running container
 docker create \<image-name\>  | To create a container
 docker start \<container-id\>  | To start a container
 docker start -a \<container-id\>  | To start a container with output logs on terminal
